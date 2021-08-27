@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		302DB61326D8FFC5004208DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB61226D8FFC5004208DE /* AppDelegate.swift */; };
+		302DB61526D8FFC5004208DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB61426D8FFC5004208DE /* SceneDelegate.swift */; };
+		302DB61726D8FFC5004208DE /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB61626D8FFC5004208DE /* TipViewController.swift */; };
+		302DB61A26D8FFC5004208DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302DB61826D8FFC5004208DE /* Main.storyboard */; };
+		302DB61C26D8FFC8004208DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 302DB61B26D8FFC8004208DE /* Assets.xcassets */; };
+		302DB61F26D8FFC8004208DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 302DB61D26D8FFC8004208DE /* LaunchScreen.storyboard */; };
+		302DB62A26D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB62926D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeTests.swift */; };
+		302DB63526D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302DB63426D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		302DB62626D8FFC9004208DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302DB60726D8FFC5004208DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302DB60E26D8FFC5004208DE;
+			remoteInfo = "Codepath iOS - Prework - Reid Strange";
+		};
+		302DB63126D8FFC9004208DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 302DB60726D8FFC5004208DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 302DB60E26D8FFC5004208DE;
+			remoteInfo = "Codepath iOS - Prework - Reid Strange";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		302DB60F26D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codepath iOS - Prework - Reid Strange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DB61226D8FFC5004208DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		302DB61426D8FFC5004208DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		302DB61626D8FFC5004208DE /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
+		302DB61926D8FFC5004208DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		302DB61B26D8FFC8004208DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		302DB61E26D8FFC8004208DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		302DB62026D8FFC8004208DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302DB62526D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codepath iOS - Prework - Reid StrangeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DB62926D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codepath_iOS___Prework___Reid_StrangeTests.swift"; sourceTree = "<group>"; };
+		302DB62B26D8FFC9004208DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		302DB63026D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Codepath iOS - Prework - Reid StrangeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		302DB63426D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codepath_iOS___Prework___Reid_StrangeUITests.swift"; sourceTree = "<group>"; };
+		302DB63626D8FFC9004208DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		302DB60C26D8FFC5004208DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302DB62226D8FFC9004208DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302DB62D26D8FFC9004208DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		302DB60626D8FFC5004208DE = {
+			isa = PBXGroup;
+			children = (
+				302DB61126D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange */,
+				302DB62826D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeTests */,
+				302DB63326D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeUITests */,
+				302DB61026D8FFC5004208DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		302DB61026D8FFC5004208DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				302DB60F26D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange.app */,
+				302DB62526D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeTests.xctest */,
+				302DB63026D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		302DB61126D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange */ = {
+			isa = PBXGroup;
+			children = (
+				302DB61226D8FFC5004208DE /* AppDelegate.swift */,
+				302DB61426D8FFC5004208DE /* SceneDelegate.swift */,
+				302DB61826D8FFC5004208DE /* Main.storyboard */,
+				302DB61626D8FFC5004208DE /* TipViewController.swift */,
+				302DB61B26D8FFC8004208DE /* Assets.xcassets */,
+				302DB61D26D8FFC8004208DE /* LaunchScreen.storyboard */,
+				302DB62026D8FFC8004208DE /* Info.plist */,
+			);
+			path = "Codepath iOS - Prework - Reid Strange";
+			sourceTree = "<group>";
+		};
+		302DB62826D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				302DB62926D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeTests.swift */,
+				302DB62B26D8FFC9004208DE /* Info.plist */,
+			);
+			path = "Codepath iOS - Prework - Reid StrangeTests";
+			sourceTree = "<group>";
+		};
+		302DB63326D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				302DB63426D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeUITests.swift */,
+				302DB63626D8FFC9004208DE /* Info.plist */,
+			);
+			path = "Codepath iOS - Prework - Reid StrangeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		302DB60E26D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302DB63926D8FFC9004208DE /* Build configuration list for PBXNativeTarget "Codepath iOS - Prework - Reid Strange" */;
+			buildPhases = (
+				302DB60B26D8FFC5004208DE /* Sources */,
+				302DB60C26D8FFC5004208DE /* Frameworks */,
+				302DB60D26D8FFC5004208DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Codepath iOS - Prework - Reid Strange";
+			productName = "Codepath iOS - Prework - Reid Strange";
+			productReference = 302DB60F26D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		302DB62426D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302DB63C26D8FFC9004208DE /* Build configuration list for PBXNativeTarget "Codepath iOS - Prework - Reid StrangeTests" */;
+			buildPhases = (
+				302DB62126D8FFC9004208DE /* Sources */,
+				302DB62226D8FFC9004208DE /* Frameworks */,
+				302DB62326D8FFC9004208DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302DB62726D8FFC9004208DE /* PBXTargetDependency */,
+			);
+			name = "Codepath iOS - Prework - Reid StrangeTests";
+			productName = "Codepath iOS - Prework - Reid StrangeTests";
+			productReference = 302DB62526D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		302DB62F26D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 302DB63F26D8FFC9004208DE /* Build configuration list for PBXNativeTarget "Codepath iOS - Prework - Reid StrangeUITests" */;
+			buildPhases = (
+				302DB62C26D8FFC9004208DE /* Sources */,
+				302DB62D26D8FFC9004208DE /* Frameworks */,
+				302DB62E26D8FFC9004208DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				302DB63226D8FFC9004208DE /* PBXTargetDependency */,
+			);
+			name = "Codepath iOS - Prework - Reid StrangeUITests";
+			productName = "Codepath iOS - Prework - Reid StrangeUITests";
+			productReference = 302DB63026D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		302DB60726D8FFC5004208DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					302DB60E26D8FFC5004208DE = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					302DB62426D8FFC9004208DE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 302DB60E26D8FFC5004208DE;
+					};
+					302DB62F26D8FFC9004208DE = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 302DB60E26D8FFC5004208DE;
+					};
+				};
+			};
+			buildConfigurationList = 302DB60A26D8FFC5004208DE /* Build configuration list for PBXProject "Codepath iOS - Prework - Reid Strange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 302DB60626D8FFC5004208DE;
+			productRefGroup = 302DB61026D8FFC5004208DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				302DB60E26D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange */,
+				302DB62426D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeTests */,
+				302DB62F26D8FFC9004208DE /* Codepath iOS - Prework - Reid StrangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		302DB60D26D8FFC5004208DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302DB61F26D8FFC8004208DE /* LaunchScreen.storyboard in Resources */,
+				302DB61C26D8FFC8004208DE /* Assets.xcassets in Resources */,
+				302DB61A26D8FFC5004208DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302DB62326D8FFC9004208DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302DB62E26D8FFC9004208DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		302DB60B26D8FFC5004208DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302DB61726D8FFC5004208DE /* TipViewController.swift in Sources */,
+				302DB61326D8FFC5004208DE /* AppDelegate.swift in Sources */,
+				302DB61526D8FFC5004208DE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302DB62126D8FFC9004208DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302DB62A26D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		302DB62C26D8FFC9004208DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302DB63526D8FFC9004208DE /* Codepath_iOS___Prework___Reid_StrangeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		302DB62726D8FFC9004208DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302DB60E26D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange */;
+			targetProxy = 302DB62626D8FFC9004208DE /* PBXContainerItemProxy */;
+		};
+		302DB63226D8FFC9004208DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 302DB60E26D8FFC5004208DE /* Codepath iOS - Prework - Reid Strange */;
+			targetProxy = 302DB63126D8FFC9004208DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		302DB61826D8FFC5004208DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302DB61926D8FFC5004208DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		302DB61D26D8FFC8004208DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				302DB61E26D8FFC8004208DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		302DB63726D8FFC9004208DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		302DB63826D8FFC9004208DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		302DB63A26D8FFC9004208DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Codepath iOS - Prework - Reid Strange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Codepath-iOS---Prework---Reid-Strange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		302DB63B26D8FFC9004208DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Codepath iOS - Prework - Reid Strange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Codepath-iOS---Prework---Reid-Strange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		302DB63D26D8FFC9004208DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Codepath iOS - Prework - Reid StrangeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Codepath-iOS---Prework---Reid-StrangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codepath iOS - Prework - Reid Strange.app/Codepath iOS - Prework - Reid Strange";
+			};
+			name = Debug;
+		};
+		302DB63E26D8FFC9004208DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Codepath iOS - Prework - Reid StrangeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Codepath-iOS---Prework---Reid-StrangeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Codepath iOS - Prework - Reid Strange.app/Codepath iOS - Prework - Reid Strange";
+			};
+			name = Release;
+		};
+		302DB64026D8FFC9004208DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Codepath iOS - Prework - Reid StrangeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Codepath-iOS---Prework---Reid-StrangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Codepath iOS - Prework - Reid Strange";
+			};
+			name = Debug;
+		};
+		302DB64126D8FFC9004208DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Codepath iOS - Prework - Reid StrangeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "memo.com.Codepath-iOS---Prework---Reid-StrangeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Codepath iOS - Prework - Reid Strange";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		302DB60A26D8FFC5004208DE /* Build configuration list for PBXProject "Codepath iOS - Prework - Reid Strange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302DB63726D8FFC9004208DE /* Debug */,
+				302DB63826D8FFC9004208DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302DB63926D8FFC9004208DE /* Build configuration list for PBXNativeTarget "Codepath iOS - Prework - Reid Strange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302DB63A26D8FFC9004208DE /* Debug */,
+				302DB63B26D8FFC9004208DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302DB63C26D8FFC9004208DE /* Build configuration list for PBXNativeTarget "Codepath iOS - Prework - Reid StrangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302DB63D26D8FFC9004208DE /* Debug */,
+				302DB63E26D8FFC9004208DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		302DB63F26D8FFC9004208DE /* Build configuration list for PBXNativeTarget "Codepath iOS - Prework - Reid StrangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				302DB64026D8FFC9004208DE /* Debug */,
+				302DB64126D8FFC9004208DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 302DB60726D8FFC5004208DE /* Project object */;
+}
